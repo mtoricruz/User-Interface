@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width:100%;
+	text-align:center;
+}
 /*Navigation Styling Here*/
 .navigation *{
 	display:inline-block;
@@ -75,17 +79,25 @@ h1, h2, h3, h4, h5 {
 header div{
 	text-align: center;
 	display:inline-block;
-	margin: 0 3.5%;
+	margin: 0%;
 	width: 35%;
 	font-size: 70px;
 	padding: 0 11%;
 }
-div button{
-	/*TBLR*/
-	padding: 0;
+button{
+	margin-top:0;
+	margin-bottom:10%;
 }
 /* Section top goes here*/
-.top h3{
-	content: 10%;
+.one{
+	text-align:left;
+	width:20%;
+	margin-right:2%;
+	display:inline-block;
+}
+.two{
+	text-align:left;
+	width:20%;
+	margin-left:4%;
 	display:inline-block;
 }
