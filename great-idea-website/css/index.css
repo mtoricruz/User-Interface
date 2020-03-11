@@ -84,6 +84,9 @@ hr{
 .logo{
 	width: 8%;
 }
+.navigation span{
+	color: grey;
+}
 /*Header Styling Goes Here*/
 header div{
 	text-align: center;
