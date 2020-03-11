@@ -94,10 +94,38 @@ button{
 	width:20%;
 	margin-right:2%;
 	display:inline-block;
+	margin-top:2%;
 }
 .two{
 	text-align:left;
 	width:20%;
 	margin-left:4%;
+	display:inline-block;
+}
+/*Section image goes here*/
+.image{
+	margin-bottom:2%;
+	margin-top:2%;
+}
+/* Section bottom goes here */
+.three{
+	text-align:left;
+	width:13%;
+	margin-right:1.75%;
+	margin-left:1.75%;
+	display:inline-block;
+}
+.four{
+	text-align:left;
+	width:13%;
+	margin-right:1.75%;
+	margin-left:1.75%;
+	display:inline-block;
+}
+.five{
+	text-align:left;
+	width:13%;
+	margin-right:1.75%;
+	margin-left:1.75%;
 	display:inline-block;
 }
