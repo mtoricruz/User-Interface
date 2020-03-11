@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	border: 1px solid grey;
+	/* border: 1px solid grey; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -65,28 +65,43 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/*General styling goes here*/
 body{
 	width:100%;
 	text-align:center;
 }
+hr{
+	margin-right:27%;
+	margin-left:26.75%;
+}
 /*Navigation Styling Here*/
 .navigation *{
 	display:inline-block;
+	margin-top: 1%;
 	margin-left:4%;
-	width: 9%;
+	width: 4%;
+}
+.logo{
+	width: 8%;
 }
 /*Header Styling Goes Here*/
 header div{
 	text-align: center;
 	display:inline-block;
-	margin: 0%;
+	margin-top: 4%;
 	width: 35%;
 	font-size: 70px;
 	padding: 0 11%;
 }
 button{
 	margin-top:0;
-	margin-bottom:10%;
+	margin-bottom:50%;
+	font-size:18px;
+	padding: 4px 36px;
+	background-color: white;
+}
+.circleimg{
+	margin-right:10%;
 }
 /* Section top goes here*/
 .one{
@@ -102,7 +117,7 @@ button{
 	margin-left:4%;
 	display:inline-block;
 }
-/*Section image goes here*/
+/* Section image goes here*/
 .image{
 	margin-bottom:2%;
 	margin-top:2%;
@@ -128,4 +143,26 @@ button{
 	margin-right:1.75%;
 	margin-left:1.75%;
 	display:inline-block;
+	margin-bottom:1%;
+}
+/* Section contact goes here */
+.six{
+	text-align:left;
+	padding-left:26.75%
+}
+.contact h3{
+	padding-left:26.75%;
+	text-align: left;
+	margin-top: 2%;
+}
+address{
+	padding-bottom:15px;
+}
+.contact p{
+	padding-bottom:15px;
+}
+/* Section footer goes here*/
+footer{
+	margin-bottom: 5%;
+	margin-top: 5%
 }
